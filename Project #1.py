@@ -3,7 +3,7 @@
 
 
 def count():
-    file = open("Turing.txt", "rt")
+    file = open("file.txt", "rt")
     text = (file.read()).lower()  # Reads the file once, changes it to lowercase and stores it on a variable "text"
     file.close()
 
