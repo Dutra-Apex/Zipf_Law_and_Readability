@@ -1,3 +1,12 @@
+"""
+04/01/2020
+
+Program: Zipfs_Readability_Score
+Written by: Gabriel Dutra
+
+The code's main goal is to utilize the slope of a Zipfian distribution from a given text to analyze and quantify
+the text's complexity through the metric of Flesch's Readability Scores.
+"""
 import matplotlib.pyplot as plt
 import math
 import numpy as np
