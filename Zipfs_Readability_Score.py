@@ -98,9 +98,6 @@ def zipf(text):
     plt.show()
 
 
-    ###################################################################################################################
-
-
 # Function that prints the readability score of a given text
 def reading_ease(txt):
     file = open(txt, "rt", encoding="UTF-8")
