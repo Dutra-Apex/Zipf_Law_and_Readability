@@ -73,12 +73,10 @@ def zipf(text):
 
     residual = count_list - best_fit
     total = count_list - count_list.mean()
-    r_squared = 1 - residual.dot(residual) / total.dot(total)
-    
+    r_squared = 1 - residual.dot(residual) / total.dot(total)    
     
     print("The R^2 is: ", r_squared)
     print("The slope is: ", m)
-
 
     # Prints the distribution of words and their ranks
     plt.scatter(word_list, count_list)
