@@ -87,7 +87,6 @@ def zipf(text):
     plt.title("Frequency vs Rank")
     plt.show()
 
-
     # Prints the logged graph of the zipfian distribution
     plt.scatter(rank_list,count_list, s=1)
     plt.plot(rank_list, best_fit, color="red")
