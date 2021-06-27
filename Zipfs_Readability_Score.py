@@ -104,7 +104,6 @@ def reading_ease(txt):
     print(txt)
     print("The readability score is: ",textatistic.flesch_score(text))  #Uses the library textatistic, which contains dictionaries from PyHyphen
 
-
 # Call functions by using any sample text encoded in UTF-8
 zipf("sample.txt")
 reading_ease("sample.txt")
