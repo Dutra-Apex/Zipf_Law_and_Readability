@@ -65,7 +65,6 @@ def zipf(text):
     rank_list = np.array(rank_list)
     count_list = np.array(count_list)
 
-
     #Equations for line of best fit
     denominator = rank_list.dot(rank_list) - rank_list.mean() * rank_list.sum()
     m = (rank_list.dot(count_list) - count_list.mean() * rank_list.sum()) / denominator
