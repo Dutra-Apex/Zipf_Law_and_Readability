@@ -20,6 +20,7 @@ def zipf(text):
     file.close()
 
     # Replaces any character that can interfer with the word frequency distribution
+    # The replace function imported from py-se
     text = text.replace(",", "")
     text = text.replace(".", "")
     text = text.replace("!", "")
