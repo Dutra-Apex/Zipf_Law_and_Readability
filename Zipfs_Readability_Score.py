@@ -76,7 +76,7 @@ def zipf(text):
     total = count_list - count_list.mean()
     r_squared = 1 - residual.dot(residual) / total.dot(total)    
     
-    # Prints the result
+    # Prints the result of the slope and R squared
     print("The R^2 is: ", r_squared)
     print("The slope is: ", m)
 
