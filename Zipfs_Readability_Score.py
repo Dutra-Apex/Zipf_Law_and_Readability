@@ -95,7 +95,6 @@ def zipf(text):
     plt.title("log(frequency) vs log(rank)")
     plt.show()
 
-
 # Function that prints the readability score of a given text
 def reading_ease(txt):
     file = open(txt, "rt", encoding="UTF-8")
